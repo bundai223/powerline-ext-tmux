@@ -1,6 +1,6 @@
 # vim:fileencoding=utf-8:noet
 
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
     name         = 'powerline-ext-tmux',
@@ -11,7 +11,7 @@ setup(
     author       = 'bundai223',
     author_email = 'bundai223@gmail.com',
     url          = 'https://github.com/bundai223/powerline-ext-tmux',
-    packages     = find_packages(),
+    packages     = ['powerline_ext_tmux'],
     classifiers  = [
         'Environment :: Console',
         'Intended Audience :: Developers',
