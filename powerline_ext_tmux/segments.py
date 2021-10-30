@@ -1,5 +1,3 @@
-# vim: set fileencoding=utf-8 noexpandtab tabstop=4 shiftwidth=4
-
 from powerline.segments import Segment, with_docstring
 from powerline.theme import requires_segment_info
 from subprocess import PIPE, Popen
@@ -9,7 +7,6 @@ from powerline.bindings.tmux import get_tmux_output
 
 @requires_segment_info
 class MouseModeSegment(Segment):
-
     def __call__(self, pl, segment_info):
         return self.mouse_mode(pl)
 
